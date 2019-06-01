@@ -1,0 +1,31 @@
+{
+  "name": "apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "es6-promise": "^4.2.6",
+    "fetch": "^1.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "node-fetch": "^2.6.0",
+    "unsplash-js": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets es2015 -d lib/ src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curemayank/test-Image-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curemayank/test-Image-App/issues"
+  },
+  "homepage": "https://github.com/curemayank/test-Image-App#readme"
+}
